@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopist Legal Pages</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 16px;
+      color: #222;
+      background: #fafafa;
+      text-align: center;
+    }
+
+    h1 {
+      color: #1c7c54;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    a {
+      display: inline-block;
+      margin: 12px 0;
+      padding: 12px 24px;
+      color: white;
+      background-color: #1c7c54;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      font-weight: 500;
+    }
+
+    a:hover {
+      background-color: #14593d;
+    }
+
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #777;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shopist Legal Information</h1>
+  <p>Welcome to the official legal information page for the <strong>Shopist</strong> app.</p>
+  <p>Please select a document below:</p>
+
+  <div>
+    <a href="privacy-policy.html">Privacy Policy</a><br />
+    <a href="delete-account.html">Delete Account Instructions</a>
+  </div>
+
+  <footer>
+    <p>© <span id="year"></span> Shopist. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+

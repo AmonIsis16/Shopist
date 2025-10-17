@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account - Shopist</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 16px;
+      color: #222;
+      background: #fafafa;
+    }
+
+    h1 {
+      color: #1c7c54;
+      font-size: 1.8em;
+      margin-bottom: 0.4em;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 1.6em;
+    }
+
+    a {
+      color: #1c7c54;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    footer {
+      margin-top: 2em;
+      font-size: 0.9em;
+      color: #777;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Delete Your Shopist Account</h1>
+
+  <p>
+    If you wish to permanently delete your Shopist account and all associated data, please follow the steps below:
+  </p>
+
+  <h2>Steps to Delete Your Account</h2>
+  <ol>
+    <li>Open the <strong>Shopist</strong> app.</li>
+    <li>Go to <strong>Top Bar → Left Menu Button → Settings → Delete Account</strong>.</li>
+    <li>Confirm the deletion.</li>
+  </ol>
+
+  <p>
+    Once confirmed, your account (including your email, name, and all shopping lists) will be <strong>permanently deleted</strong> from our Firebase servers. This action cannot be undone.
+  </p>
+
+  <h2>Need Help?</h2>
+  <p>
+    If you experience issues or cannot access your account, please contact us directly at:
+  </p>
+  <p>
+    📧 <a href="mailto:your-email@example.com">your-email@example.com</a>
+  </p>
+
+  <footer>
+    <p>© <span id="year"></span> Shopist. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
